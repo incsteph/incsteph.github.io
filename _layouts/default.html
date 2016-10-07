@@ -1,30 +1,18 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>{{ page.title }}</title>
+	<!-- <head>
+		<title>{{ page.title }}</title> -->
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
+		<!-- <link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head> -->
+	{% include head.html %}
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
+		{% include navigation.html %}
 		<div class="container">
 		
 		{{ content }}
 		
 		</div><!-- /.container -->
-		<footer>
-    	<ul>
-    		<li><a href="mailto:incinemas.stephanie@gmail.com">email</a></li>
-    		<li><a href="https://github.com/incsteph">github.com/incsteph</a></li>
-    		<li><a href="https://incsteph.github.io/blog/atom.xml">Blog RSS Feed</a></li>
-			</ul>
-		</footer>
+		{% include footer.html %}
 	</body>
 </html>
