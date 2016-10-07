@@ -8,16 +8,24 @@ tags: [test]
 
 ## <i>HEADERS</i>
 
+	# This is H1
+
 # This is H1
 
+
+	## This is H2
 ## This is H2
 
+	### This is H3
 ### This is H3
 
+	#### This is H4
 #### This is H4
 
+	##### This is H5
 ##### This is H5
 
+	###### This is H6
 ###### This is H6
 
 
@@ -26,7 +34,7 @@ tags: [test]
 
 ## <i>LISTS</i>
 
-### <b>unordered</b>
+### unordered
 
 * Sizes
 * Shapes
@@ -34,7 +42,7 @@ tags: [test]
 	* Blue
 	* Orange
 
-### <b>ordered</b>
+### ordered
 
 1. First
 2. Second
@@ -48,17 +56,17 @@ tags: [test]
 
 ## <i>BLOCKQUOTES</i>
 
-### <b>separated</b>
+### separated
 
 > Lorem ipsum
 > dolor sit amet
 
-### <b>one line</b>
+### one line
 
 > Lorem ipsum dolor
 sit amet
 
-### <b>nested lines</b>
+### nested lines
 
 > Level one
 >
@@ -66,6 +74,9 @@ sit amet
 > >
 > > > Level three
 
+> Level one
+> > Level two
+> > > Level three
 
 * * *
 
@@ -73,6 +84,7 @@ sit amet
 ## <i>INLINE CODE</i>
 
 Use `<div>` tags
+
 ``echo `uname -a```
 
 
@@ -84,6 +96,7 @@ Use `<div>` tags
 Normal text
 
 	#include <stdio.h>
+	<b>this is part of a code block</b>
 
 
 * * *
@@ -103,10 +116,15 @@ Normal text
 ## <i>EMPHASIS</i>
 
 *Emphasis*
+
 _Emphasis_
+
 **Strong**
+
 __Strong__
+
 *Super*emphasis
+
 **Super**strong
 
 
@@ -116,16 +134,27 @@ __Strong__
 ## <i>ESCAPABLE CHARACTERS</i>
 
 \ Backslash
+
 ` Backtick
+
 * Asterisk
+
 _ Underscore
+
 { } Curly braces
+
 [ ] Square brackets
+
 ( ) Parantheses
+
 # Hash mark
+
 + Plus sign
+
 - Hyphen
+
 . Period
+
 ! Exclamation
 
 
@@ -135,9 +164,13 @@ _ Underscore
 ## <i>LINKS</i>
 
 [Google](http://google.com/)
+
 [Google](http://google.com/ "Search")
+
 [google]: http://google.com/ "Search"
+
 [Google][google]
+
 <http://google.com>
 
 
@@ -147,6 +180,9 @@ _ Underscore
 ## <i>IMAGES</i>
 
 ![Alt text](/path/to/img.jpg)
+
 ![Alt text](/path/to/img.jpg "Title")
+
 [img1]: /path/to/img.jpg "Title"
+
 ![Alt text][img1]
