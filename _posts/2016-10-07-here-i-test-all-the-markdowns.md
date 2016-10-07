@@ -6,6 +6,9 @@ categories: [markdown, jekyll, test]
 tags: [test]
 ---
 
+Edit: Seems like other people like to do (this)[https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet] too...
+And the cheatsheet I referred the below (from)[http://packetlife.net/media/library/16/Markdown.pdf]
+
 ## <i>HEADERS</i>
 
 	# This is H1
@@ -85,7 +88,7 @@ tags: [test]
 > Lorem ipsum
 > dolor sit amet  
   
-  
+
 
 ### one line
 	> Lorem ipsum dolor
