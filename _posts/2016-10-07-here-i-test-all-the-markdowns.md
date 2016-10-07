@@ -106,6 +106,7 @@ sit amet
 > > > Level three
 
 this does not work
+
 	> Level one
 	> > Level two
 	> > > Level three
@@ -169,18 +170,18 @@ __Strong__
 
 ## <i>ESCAPABLE CHARACTERS</i>
 
-\ Backslash
-` Backtick
-* Asterisk
-_ Underscore
-{ } Curly braces
-[ ] Square brackets
-( ) Parentheses
-# Hash mark
-+ Plus sign
-- Hyphen
-. Period
-! Exclamation
+\ Backslash  
+` Backtick  
+* Asterisk  
+_ Underscore  
+{ } Curly braces  
+[ ] Square brackets  
+( ) Parentheses  
+# Hash mark  
++ Plus sign  
+- Hyphen  
+. Period  
+! Exclamation  
 
 
 * * *
