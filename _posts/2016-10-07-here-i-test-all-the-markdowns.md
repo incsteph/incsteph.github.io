@@ -14,18 +14,27 @@ tags: [test]
 
 
 	## This is H2
+
 ## This is H2
 
+
 	### This is H3
+
 ### This is H3
 
+
 	#### This is H4
+
 #### This is H4
 
+
 	##### This is H5
+
 ##### This is H5
 
+
 	###### This is H6
+
 ###### This is H6
 
 
@@ -36,6 +45,13 @@ tags: [test]
 
 ### unordered
 
+	* Sizes
+	* Shapes
+	* Colors
+		* Blue
+		* Orange
+
+
 * Sizes
 * Shapes
 * Colors
@@ -43,6 +59,12 @@ tags: [test]
 	* Orange
 
 ### ordered
+
+	1. First
+	2. Second
+	3. Third
+		1. Alpha
+		2. Bravo
 
 1. First
 2. Second
@@ -57,16 +79,25 @@ tags: [test]
 ## <i>BLOCKQUOTES</i>
 
 ### separated
+	> Lorem ipsum
+	> dolor sit amet
 
 > Lorem ipsum
 > dolor sit amet
 
 ### one line
+	> Lorem ipsum dolor
+	sit amet
 
 > Lorem ipsum dolor
 sit amet
 
 ### nested lines
+	> Level one
+	>
+	> > Level two
+	> >
+	> > > Level three
 
 > Level one
 >
@@ -74,6 +105,7 @@ sit amet
 > >
 > > > Level three
 
+this does not work
 > Level one
 > > Level two
 > > > Level three
