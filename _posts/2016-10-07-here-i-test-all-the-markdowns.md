@@ -6,8 +6,8 @@ categories: [markdown, jekyll, test]
 tags: [test]
 ---
 
-Edit: Seems like other people like to do [this](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) too...
-And the cheatsheet I referred the below [from](http://packetlife.net/media/library/16/Markdown.pdf)
+Edit: Seems like [other people like to do this](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) too...
+And the [cheatsheet](http://packetlife.net/media/library/16/Markdown.pdf) I referred the below from.
 
 ## <i>HEADERS</i>
 

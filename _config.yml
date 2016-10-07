@@ -1,3 +1,5 @@
 name: Inc Steph
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+paginate: 3
+paginate_path: "/blog/page:num/"
